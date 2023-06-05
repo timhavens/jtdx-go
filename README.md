@@ -2,9 +2,9 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/k0swe/wsjtx-go/v4)](https://goreportcard.com/report/github.com/k0swe/wsjtx-go/v4)
 [![Test](https://github.com/k0swe/wsjtx-go/workflows/Test/badge.svg?branch=v3)](https://github.com/k0swe/wsjtx-go/actions/workflows/test.yml?query=branch%3Av3)
 
-# wsjtx-go
+# jtdx-go
 
-Golang binding for the WSJT-X amateur radio software's UDP communication interface. This library
+Golang binding for the WSJT-X (JTDX-SPECIFIC) amateur radio software's UDP communication interface. This library
 supports receiving and sending all WSJT-X message types up through WSJT-X v2.5.2.
 
 This is meant to be a fairly thin binding API, so familiarity with WSJT-X's
