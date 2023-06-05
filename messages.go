@@ -20,7 +20,7 @@ type HeartbeatMessage struct {
 	Id        string `json:"id"`
 	MaxSchema uint32 `json:"maxSchemaVersion"`
 	Version   string `json:"version"`
-	Revision  string `json:"revision"`
+	//Revision  string `json:"revision"` // JTDX doesn't support this yet
 }
 
 const heartbeatNum = 0
@@ -52,11 +52,12 @@ type StatusMessage struct {
 	TxWatchdog           bool   `json:"txWatchdog"`
 	SubMode              string `json:"submode"`
 	FastMode             bool   `json:"fastMode"`
-	SpecialOperationMode uint8  `json:"specialMode"`
-	FrequencyTolerance   uint32 `json:"frequencyTolerance"`
-	TRPeriod             uint32 `json:"txRxPeriod"`
-	ConfigurationName    string `json:"configName"`
-	TxMessage            string `json:"txMessage"`
+	// SpecialOperationMode uint8  `json:"specialMode"` // JTDX doesn't support this yet
+	// FrequencyTolerance   uint32 `json:"frequencyTolerance"` // JTDX doesn't support this yet
+	// TRPeriod             uint32 `json:"txRxPeriod"` // JTDX doesn't support this yet
+	// ConfigurationName    string `json:"configName"` // JTDX doesn't support this yet
+	//TxMessage            string `json:"txMessage"` // JTDX doesn't support this yet
+	TXFirst              string `json:"TXFirst"`
 }
 
 const statusNum = 1
