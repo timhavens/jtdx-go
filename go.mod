@@ -1,4 +1,4 @@
-module github.com/k0swe/wsjtx-go/v4
+module github.com/timhavens/jtdx-go/v1
 
 go 1.19
 
