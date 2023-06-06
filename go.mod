@@ -1,4 +1,4 @@
-module github.com/timhavens/jtdx-go/v1
+module github.com/timhavens/jtdx-go/v4
 
 go 1.19
 
